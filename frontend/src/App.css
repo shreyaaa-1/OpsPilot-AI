@@ -9,6 +9,7 @@
 
 body {
   background: linear-gradient(135deg, #667eea, #764ba2);
+  background-attachment: fixed;
   min-height: 100vh;
   color: #1f2937;
 }
@@ -102,7 +103,7 @@ body {
 
 .searchInput {
   margin-bottom: 18px;
-  background: linear-gradient(135deg, #f8f9fb, #fafbff);
+  background: #f9fafb;
 }
 
 .textarea {
@@ -214,7 +215,7 @@ body {
 /* ===== TASK CARD ===== */
 
 .card {
-  background: linear-gradient(135deg, #f8f9fb, #f0f3ff);
+  background: #f9fafb;
   border: 1px solid #e0e5ff;
   padding: 18px;
   border-radius: 12px;
