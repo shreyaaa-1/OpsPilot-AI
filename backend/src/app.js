@@ -15,10 +15,11 @@ app.get("/", (req, res) => {
   res.json({ message: "OpsPilot AI API running" });
 });
 
-app.use("/api/tasks", taskRoutes);
+app.use("/api/v1/tasks", taskRoutes);
+app.use("/api/v1/auth", authRoutes);
+
+app.use(errorHandler);
 
 module.exports = app;
-app.use(errorHandler);
-app.use("/api/auth", authRoutes);
 
 
